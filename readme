@@ -1,0 +1,13 @@
+se crea un entorno de desarroyo en este caso se usa virtualenv
+para ello debemos tener instalado virtualenv
+# pip install virtualenv
+
+#virtualenv -p python hbase
+
+en este caso le llame hbase pero eso es lo de menos
+se ejecuta asi el entrono
+#.\hbase\Scripts\activate     
+ instalamos ahora si  google-cloud-bigtable      
+# pip install google-cloud-bigtable      
+y listo ejecutamos el codigo 
+#py .\HelloWord.py          
